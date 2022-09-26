@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	list-style: none;
+	text-decoration: none;
+	text-decoration-style: none;
+	font-family: bell-mt;
+
+}
+
+body{
+	background-color:#fffDD0;
+	background-image: url('../arquivos-necessarios-projetos-unes/fundo2.png')
+
+}
+
+.container{
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+.cabecalho{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:3%;
+	margin-bottom: 5%;
+	align-items: center;
+
+}
+
+.cabecalho-menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+
+}
+
+.cabecalho-menu-home{
+	font-weight: 900;
+	color:#00008B;
+	transition-duration: 0.8s;
+
+}
+
+.cabecalho-menu-quem-somos{
+	font-weight: 900;
+	color:#00008B;
+	transition-duration: 0.8s;
+
+}
+
+.cabecalho-menu-contato{
+	font-weight: 900;
+	color:#00008B;
+	transition-duration: 0.8s;
+
+}
+
+
+.corpo-subtitulo{
+	margin-top: 3%;
+
+}
+
+.corpo-linha{
+	margin-top:3%;
+	border-color:#DCDCDC;
+
+}
+
+.corpo-paragrafo-primeiro{
+	margin-top: 3%;
+
+
+}
+
+.corpo-paragrafo-segundo{
+	margin-top: 3%;
+
+}
+
+.corpo-paragrafo-segundo-lista{
+
+
+}
+
+.corpo-paragrafo-terceiro{
+	margin-top: 3%;
+
+}
+
+.rodape{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.rodape-paragrafo{
+	margin-top:5%;
+
+}
+
+.cabecalho-menu-home:hover{
+	background-color:#120A8F;
+	color:white;
+	border-radius:10px;
+	font-family: constantia;
+
+}
+
+.cabecalho-menu-quem-somos:hover{
+	background-color:#120A8F;
+	color:white;
+	border-radius:10px;
+	font-family: constantia;
+
+}
+
+.cabecalho-menu-contato:hover{
+	background-color:#120A8F;
+	color:white;
+	border-radius:10px;
+	font-family: constantia;
+
+}
